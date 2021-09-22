@@ -1,0 +1,14 @@
+C:\Users\Avell\source\repos\AppBank\AppBank\bin\Debug\netcoreapp3.1\AppBank.exe
+C:\Users\Avell\source\repos\AppBank\AppBank\bin\Debug\netcoreapp3.1\AppBank.deps.json
+C:\Users\Avell\source\repos\AppBank\AppBank\bin\Debug\netcoreapp3.1\AppBank.runtimeconfig.json
+C:\Users\Avell\source\repos\AppBank\AppBank\bin\Debug\netcoreapp3.1\AppBank.runtimeconfig.dev.json
+C:\Users\Avell\source\repos\AppBank\AppBank\bin\Debug\netcoreapp3.1\AppBank.dll
+C:\Users\Avell\source\repos\AppBank\AppBank\bin\Debug\netcoreapp3.1\AppBank.pdb
+C:\Users\Avell\source\repos\AppBank\AppBank\obj\Debug\netcoreapp3.1\AppBank.csproj.AssemblyReference.cache
+C:\Users\Avell\source\repos\AppBank\AppBank\obj\Debug\netcoreapp3.1\AppBank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Avell\source\repos\AppBank\AppBank\obj\Debug\netcoreapp3.1\AppBank.AssemblyInfoInputs.cache
+C:\Users\Avell\source\repos\AppBank\AppBank\obj\Debug\netcoreapp3.1\AppBank.AssemblyInfo.cs
+C:\Users\Avell\source\repos\AppBank\AppBank\obj\Debug\netcoreapp3.1\AppBank.csproj.CoreCompileInputs.cache
+C:\Users\Avell\source\repos\AppBank\AppBank\obj\Debug\netcoreapp3.1\AppBank.dll
+C:\Users\Avell\source\repos\AppBank\AppBank\obj\Debug\netcoreapp3.1\AppBank.pdb
+C:\Users\Avell\source\repos\AppBank\AppBank\obj\Debug\netcoreapp3.1\AppBank.genruntimeconfig.cache
