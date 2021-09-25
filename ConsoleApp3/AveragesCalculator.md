@@ -5,15 +5,8 @@ Project status: Done :heavy_check_mark:
 
 
 *******
-## Tabela de conteúdo 
- 1. [Description](#descricao)
 
-
-*******
-
-<div id='descricao'/>  
-
-## Descrição
+## Description
 
 Insere-se duas notas válidas e retorna amédia da turma.
 É importante atentar que o valor das variáveis de entrada devem estar entre [0,10], caso contrário o programa retornará "nota invalida"
