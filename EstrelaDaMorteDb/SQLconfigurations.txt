@@ -1,0 +1,4 @@
+Sql server 2019 express edition
+
+CADEIA DE CONEXÃO: Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;
+ nome do servidor: localhost/SQLEXPRESS
