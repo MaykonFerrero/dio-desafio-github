@@ -1,4 +1,4 @@
-<h1 align="center">🌐 cálculo de médias das notas da turma/cálculo de médias das notas da turma/calculating class grade averages /calcular las medias de las calificaciones de la clase</h1> 
+<h1 align="center">🌐 Calculating class grade averages</h1> 
 
 
 Project status: Done :heavy_check_mark:
