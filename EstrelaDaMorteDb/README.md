@@ -1,9 +1,18 @@
-# .Net #2 Everis Chalenge
+<h1 align="center">🌐 Estrela da Morte</h1> 
 
-Neste repositório estão um compilado dos códigos desenvolvidos durante a jornada .Net, com foco maior nos projetos. Todos os códigos estão em inglês para facilitar o compartilhamento.
 
-This repository contains a compilation of the codes developed on the .Net journey, focused on the projects. All codes are in English for easy sharing.
+Project status: Done :heavy_check_mark:
 
-En este repositorio están algunos de los programas desarrollados mientras estudiaba en .Net en el Bootcamp promovido por Everys. Todos los codigos están en inglés para facilitar la visualización por el publico en general
 
-Please if you want to improve this code, that will be amazing!
+*******
+
+## Description
+
+Esse Aplicativo usa o banco de dados disponível sobre naves, pilotos e planetas na internet.
+Primeiramente faz-se a sincronização dos dados para o seu banco de dados local feito previamente na sua máquina (Ver arquivo EstrelaDaMorteDb.sql" ) . 
+Após essa etapa,  pode-se realizar a consulta de dados como naves, pilotos associando as ações de pouso e decolagem. O controle possui funções como informar incoerências nos dados, sugerindo possíveis invasores.
+
+
+This Application uses the database available on ships, pilots and planets on the internet.
+First, the data synchronization to your local database is done previously on your machine (See file EstrelaDaMorteDb.sql" ) .
+After this step, data can be consulted such as ships, pilots associating the landing and takeoff actions. The control has functions such as reporting inconsistencies in the data, suggesting possible invaders and enemies
