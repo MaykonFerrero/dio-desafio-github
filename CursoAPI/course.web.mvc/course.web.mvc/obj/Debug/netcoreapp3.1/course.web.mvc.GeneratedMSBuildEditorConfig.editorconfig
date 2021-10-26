@@ -1,0 +1,4 @@
+is_global = true
+build_property.RefitInternalNamespace = course.web.mvc
+build_property.RootNamespace = course.web.mvc
+build_property.ProjectDir = C:\Users\Avell\Desktop\Projetos do Git\Dio\Git\dio-desafio-github\CursoAPI\course.web.mvc\course.web.mvc\
