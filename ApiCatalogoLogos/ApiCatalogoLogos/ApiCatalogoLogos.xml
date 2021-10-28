@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiCatalogoLogos</name>
+    </assembly>
+    <members>
+        <member name="M:ApiCatalogoLogos.Controllers.V1.JogosController.Obter(System.Int32,System.Int32)">
+            <summary>
+            Buscar todos os jogos de forma paginada
+            </summary>
+            <remarks>
+            Não é possível retornar os jogos sem paginação
+            </remarks>
+            <param name="pagina">Indica qual página está sendo consultada. Mínimo 1</param>
+            <param name="quantidade">Indica a quantidade de registros por página. Mínimo 1 e máximo 50</param>
+            <response code="200">Retorna a lista de jogos</response>
+            <response code="204">Caso não haja jogos</response>   
+        </member>
+        <member name="M:ApiCatalogoLogos.Controllers.V1.JogosController.Obter(System.Guid)">
+            <summary>
+            Buscar todos o jogo por id
+            </summary>
+            <remarks>
+            Não é possível retornar o jogo sem um id Válido
+            </remarks>
+            <param name="idJogo">Indica qual o id do jogo a ser consultado</param>
+            <response code="200">Retorna o jogo cujo id foi digitado</response>
+            <response code="204">Caso o id não seja válido</response>  
+        </member>
+        <member name="M:ApiCatalogoLogos.Controllers.V1.JogosController.InserirJogo(ApiCatalogoLogos.InputModel.JogoInputModel)">
+            <summary>
+            Inserir Novo jogo
+            </summary>
+            <remarks>
+            Não é possível inserir um jogo sem ter os campos preenchidos corretamente
+            </remarks>
+            <param name="jogoInputModel">Indica as informações sobre o jogo a serem inseridas</param>
+            <response code="200">Caso o jogo for criado corretamente</response>
+            <response code="204">Caso o jogo já exista no banco ou faltar informações</response> 
+        </member>
+        <member name="M:ApiCatalogoLogos.Controllers.V1.JogosController.AtualizarJogo(System.Guid,ApiCatalogoLogos.InputModel.JogoInputModel)">
+            <summary>
+            Editar informações de um jogo em específico
+            </summary>
+            <remarks>
+            Não é possível atualizar o jogo sem um id Válido
+            </remarks>
+            <param name="idJogo">Indica qual o id do jogo a ser consultado</param>
+            <param name="jogoInputModel">Indica as informações sobre o jogo que podem ser modificadas</param>
+            <response code="200">Caso o jogo for modificado corretamente</response>
+            <response code="204">Caso o id não seja válido ou o jogo foi modificado incorretamente</response> 
+        </member>
+        <member name="M:ApiCatalogoLogos.Controllers.V1.JogosController.AtualizarJogo(System.Guid,System.Double)">
+            <summary>
+            Editar preço de um jogo em específico
+            </summary>
+            <remarks>
+            Não é possível modificar o preço do jogo sem um id Válido
+            </remarks>
+            <param name="idJogo">Indica qual o id do jogo a ser consultado</param>
+            <param name="preco">Indica o novo preço</param>
+            <response code="200">Caso o preço do jogo for modificado corretamente</response>
+            <response code="204">Caso o id não seja válido ou o preço do jogo foi modificado incorretamente</response> 
+        </member>
+        <member name="M:ApiCatalogoLogos.Controllers.V1.JogosController.DeletarJogo(System.Guid)">
+            <summary>
+            Deletar um jogo em específico
+            </summary>
+            <remarks>
+            Não é possível deletar o jogo sem um id Válido
+            </remarks>
+            <param name="idJogo">Indica qual o id do jogo a ser consultado</param>
+            <response code="200">Caso o jogo for deletado</response>
+            <response code="204">Caso o id não seja válido </response> 
+        </member>
+    </members>
+</doc>
